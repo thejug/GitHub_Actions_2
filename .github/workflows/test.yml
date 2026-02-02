@@ -1,0 +1,10 @@
+name: My First Workflow
+on: push
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: job-1-step-1
+      - run: echo "Triggered by push"
+      #-name: job-2-step-2
+       #uses: 
