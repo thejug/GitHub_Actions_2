@@ -29,7 +29,8 @@ jobs:
     steps:
       - name: job-4-step-1
         uses: actions/setup-node@v4
-        with: node-version: 18
+        with: 
+          node-version: 18
       - name: job-4-step-2
         run: node --version
         
